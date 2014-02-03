@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/igmcdowell/CMPopTipView.git', :tag => '2.1.0' }
   s.platform = :ios
   s.source_files = 'CMPopTipView/*.{h,m}'
+  s.requires_arc = true
   s.framework = 'UIKit'
 end
